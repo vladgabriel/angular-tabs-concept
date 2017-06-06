@@ -10,8 +10,7 @@ import {TabContentComponent} from './tabs/tab/tab-content/tab-content.component'
     CommonModule
   ],
   declarations: [TabsComponent, TabComponent, TabTitleComponent, TabContentComponent],
-  exports: [TabsComponent, TabComponent, TabTitleComponent, TabContentComponent],
-  schemas: [NO_ERRORS_SCHEMA]
+  exports: [TabsComponent, TabComponent, TabTitleComponent, TabContentComponent]
 })
 export class TabsModule {
 }
